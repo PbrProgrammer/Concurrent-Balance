@@ -185,3 +185,7 @@ Coverage:
 - Concurrent `A→B` and `B→A` transfers: no deadlock, no negative balance, total money conserved
 - Cyclic transfers among A, B, and C: total money conserved
 - Concurrent start is coordinated with `CyclicBarrier`; completion uses `ExecutorService.invokeAll` with a timeout so a deadlock fails the test instead of hanging
+
+## How this project was generated
+
+This codebase was generated with [Cursor](https://cursor.com) using the **Cursor Grok 4.6** model.
